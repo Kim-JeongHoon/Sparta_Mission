@@ -1,0 +1,80 @@
+.mytitle {
+  color: aliceblue;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Gugi", cursive;
+}
+
+h2 {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+body {
+ 
+  background-image: url(https://cdn.pixabay.com/photo/2014/07/21/17/52/museum-398761_1280.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: 40px;
+}
+
+.hobbies > a {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border: solid 1px darkolivegreen;
+  border-radius: 20px;
+  margin: 50px;
+  background-color: #ffffff;
+  opacity: 0.1;
+}
+
+.music {
+  background-image: url(https://cdn.pixabay.com/photo/2015/05/31/10/59/headphones-791078_1280.jpg);
+  background-size: cover;
+  background-position: -100px;
+  background-repeat: no-repeat;
+}
+
+.book {
+  background-image: url(https://cdn.pixabay.com/photo/2014/08/16/18/17/book-419589_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.travel {
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/23/05/56/summer-2880261_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hobbies > a:hover {
+  opacity: 1;
+  order: solid 3px darkgreen;
+  box-shadow: 0px 0px 10px 0px darkgreen;
+}
+
+footer {
+  background-color: darkgray;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}

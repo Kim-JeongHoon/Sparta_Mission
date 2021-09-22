@@ -1,0 +1,120 @@
+.mytitle {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Gugi", cursive;
+}
+
+h2 {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+h3 {
+  font-family: "Gugi", cursive;
+}
+div {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/27/19/12/library-863148_1280.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.track > div {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border: solid 1px darkolivegreen;
+  border-radius: 20px;
+  margin: 50px;
+  color: transparent;
+  text-align: center;
+}
+
+.track1 {
+  background-image: url(https://image.aladin.co.kr/product/42/2/cover500/8988404513_2.jpg);
+  background-size: cover;
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+}
+
+.track2 {
+  background-image: url(http://image.yes24.com/goods/15281236/XL);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.track3 {
+  background-image: url(https://pds.joins.com/news/component/htmlphoto_mmdata/200608/htm_20060810161259l000l700-001.JPG);
+  background-size: cover;
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-back {
+  width: 150px;
+  height: 50px;
+
+  color: darkred;
+  border: 2px solid darkred;
+  background-color: white;
+
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-share {
+  width: 150px;
+  height: 50px;
+
+  color: white;
+  border: 2px solid darkred;
+  background-color: darkred;
+
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.track > div:hover {
+  background-image: none;
+  text-indent: 1px;
+  color: white;
+  order: solid 3px darkgray;
+  box-shadow: 0px 0px 10px 0px darkgray;
+}
+
+footer {
+  background-color: darkgray;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}

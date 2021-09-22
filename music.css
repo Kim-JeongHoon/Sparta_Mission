@@ -1,0 +1,121 @@
+.mytitle {
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Gugi", cursive;
+}
+
+h2 {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+h3 {
+  font-family: "Gugi", cursive;
+}
+div {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+body {
+  background-color: green;
+  background-image: url(http://www.cinecafe.kr/files/attach/images/12850/963/106/5e576b3ad6b4ea726c9361cea92841f9.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.track > div {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border: solid 1px darkolivegreen;
+  border-radius: 20px;
+  margin: 50px;
+  color: transparent;
+  text-align: center;
+}
+
+.track1 {
+  background-image: url(http://image.yes24.com/momo/TopCate60/MidCate01/5908267.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.track2 {
+  background-image: url(https://image.bugsm.co.kr/album/images/500/2955/295555.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.track3 {
+  background-image: url(https://image.bugsm.co.kr/album/images/500/5126/512606.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-back {
+  width: 150px;
+  height: 50px;
+
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-share {
+  width: 150px;
+  height: 50px;
+
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.track > div:hover {
+  background-image: none;
+  text-indent: 1px;
+  color: white;
+  order: solid 3px darkgray;
+  box-shadow: 0px 0px 10px 0px darkgray;
+}
+
+footer {
+  background-color: darkgray;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}

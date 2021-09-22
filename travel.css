@@ -1,0 +1,119 @@
+.mytitle {
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Gugi", cursive;
+}
+
+h2 {
+  font-family: "Do Hyeon", sans-serif;
+}
+h3{
+    font-family: "Gugi", cursive;
+}
+div{
+    font-family: "Do Hyeon", sans-serif;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2020/06/05/23/57/suzhou-5264849_1280.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.track > div {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border: solid 1px darkolivegreen;
+  border-radius: 20px;
+  margin: 50px;
+  color: transparent;
+  text-align: center;
+}
+
+.track1 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/27/15/22/hong-kong-2545665_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.track2 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/02/26/08/52/hangzhou-west-lake-night-2099752_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.track3 {
+  background-image: url(./china.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-back {
+  width: 150px;
+  height: 50px;
+
+  color: black;
+  border: 2px solid darkred;
+  background-color: white;
+
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-share {
+  width: 150px;
+  height: 50px;
+
+  color: white;
+  border: 2px solid darkred;
+  background-color: black;
+
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.track > div:hover {
+  background-image: none;
+  text-indent: 1px;
+  color: white;
+  order: solid 3px darkgray;
+  box-shadow: 0px 0px 10px 0px darkgray;
+}
+
+footer {
+  background-color: darkgray;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
